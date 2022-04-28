@@ -1,7 +1,7 @@
 .teachareas {
     width: 1200px;
     height: 400px;
-    margin-left: 120px;
+    margin-left: 100px;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -114,25 +114,53 @@ svg {
 .academysystem{
     max-width: 1200px;
     max-height: 600px;
-    border: solid black 1px;
     display: flex;
     flex-direction: column;
+    margin-top: 200px;
 }
 .row{
     display: flex;
     flex-direction: row;
-    min-width: 600px;
+    min-width: 550px;
     min-height: 200px;
     padding: 10px;
     justify-content: space-evenly;
 }
 .img{
     width: 200px;
-    height: 200px;
+    height: 190px;
 }
 .box{
     display: flex;
-    flex-direction: row;
-    border: 1px solid red;    
-    max-width: 600px;
+    flex-direction: row;  
+    max-width: 600px;    
+    text-align: left;
+}
+.txtarea{
+    width: 250px;
+    margin-left: 15px;
+}
+.right{
+    margin-left: 15px;
+}
+.txtarea>.txth2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 5px;
+    height: 20px;
+    padding: 0;
+}
+.txtarea>.txtp{
+    margin-top: 10px;
+    height: 120px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 100;
+}
+.txtarea>.txtspan{
+    margin-bottom: 0;
+}
+.box>.img,.txtspan,.txth2{
+    cursor: pointer;
 }
