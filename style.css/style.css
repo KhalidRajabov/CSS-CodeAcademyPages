@@ -1,7 +1,7 @@
 .teachareas {
     width: 1200px;
     height: 400px;
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -114,6 +114,7 @@ svg {
 .academysystem{
     max-width: 1200px;
     max-height: 600px;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
     margin-top: 200px;
@@ -160,6 +161,7 @@ svg {
 }
 .txtarea>.txtspan{
     margin-bottom: 0;
+    font-weight: 900;
 }
 .box>.img,.txtspan,.txth2{
     cursor: pointer;
